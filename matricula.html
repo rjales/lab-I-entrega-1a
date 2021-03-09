@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniLuz - Seu futuro está aqui</title>
+    <title>UniLuz - Matrícula</title>
     <link rel="stylesheet" href="main.css">
     <script src="script.js"></script>
 </head>
@@ -13,8 +13,37 @@
     <a href="index.html">Início</a>
     <a href="institucional.html">Institucional</a>
     <a class="active" href="matricula.html">Matrícula</a>
-    <a href="contato.html">Contate-nos</a>
+    <a href="contato.html">Contato</a>
     <a href="area-aluno.html">Área do aluno</a>
     </div>
+    <h2>Venha para a melhor</h2>
+
+<form action="/action_page.php">
+  <label for="nome">Nome completo:</label><br>
+  <input type="text" id="nome" name="nome" size="50"><br><br>
+  <label for="datanasc">Data de nascimento:</label><br>
+  <input type="date" id="datanasc" name="datanasc"><br><br>
+  <label for="genero"><b>Gênero:</b></label><br><br>
+  <input type="radio" id="masculino" name="genero" value="masculino">
+  <label for="male">Masculino</label><br>
+  <input type="radio" id="feminino" name="genero" value="feminino">
+  <label for="female">Feminino</label><br>
+  <input type="radio" id="outro" name="genero" value="other">
+  <label for="other">Outro</label><br><br>
+  <label for="curso"><b>Curso:</b></label>
+  <select id="cars" name="cars">
+    <option value="volvo">Administração</option>
+    <option value="saab">Arquitetura e Urbanismo</option>
+    <option value="fiat">Ciência da Computação</option>
+    <option value="audi">Ciências Contábeis</option>
+    <option value="audi">Direito</option>
+    <option value="audi">Engenharia Civil</option>
+    <option value="audi">Engenharia Elétrica</option>
+    <option value="audi">Engenharia Mecânica</option>
+    <option value="audi">Psicologia</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Enviar">
+</form>
 </body>
 </html>

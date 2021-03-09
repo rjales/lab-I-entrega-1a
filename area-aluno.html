@@ -4,17 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniLuz - Seu futuro está aqui</title>
-    <link rel="stylesheet" href="main.css">
+    <title>UniLuz - Área do aluno</title>
+    <link rel="stylesheet" href="login.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <div class="topnav">
-    <a href="index.html">Início</a>
-    <a href="institucional.html">Institucional</a>
-    <a href="matricula.html">Matrícula</a>
-    <a href="contato.html">Contate-nos</a>
-    <a class="active" href="area-aluno.html">Área do aluno</a>
-    </div>
+    <h2>UniLuz Online</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>Matrícula 
+        </b>
+        </label>    
+        <input type="text" name="Uname" id="Uname">    
+        <br><br>    
+        <label><b>Senha&nbsp&nbsp&nbsp&nbsp
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass">    
+        <br><br>    
+        <input class="cent" type="button" name="log" id="log" value="Logar-se">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Lembrar matrícula</span>    
+        <br><br>    
+        <a href="#">Esqueci minha senha</a>
+        <br><br>
+        <a href="index.html">Página inicial</a>    
+    </form>
 </body>
 </html>
